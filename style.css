@@ -1,0 +1,169 @@
+@media (max-width: 450px) {
+    * {}
+
+    .topo {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 92px;
+        background-color: #CF2B2B;
+        box-shadow: 0px 5px #ccccccfb;
+    }
+
+    .titulo {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .topo h1 {
+        font-family: 'Righteous', cursive;
+        font-size: 44px;
+        color: #FFFFFF;
+    }
+
+    .topo p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    .pedidos {
+        margin-top: 90px;
+        background-color: #eeeeee;
+    }
+
+    .prato {}
+
+    .textoPrato {
+        font-family: 'Righteous', cursive;
+        font-size: 26px;
+        padding-left: 15px;
+        padding-top: 30px;
+        color: #333333;
+
+    }
+
+    .opcoesPratos {
+        margin-left: 20px;
+        margin-top: 17px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .caixaPrato {
+        background-color: #FFFFFF;
+        border-radius: 9px;
+        height: 202px;
+        align-items: center;
+        padding-top: 17px;
+        padding-left: 15px;
+        padding-right: 20px;
+        margin-right: 15px;
+        border: solid 5px #FFFFFF;
+
+    }
+   .caixaPrato p{
+    padding-top: 7px;
+   }
+    .comida {
+        border: solid 5px #32B72F;
+    }
+
+    .bebida {
+        border: solid 5px #32B72F;
+    }
+
+    .sobremesa {
+        border: solid 5px #32B72F;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icone {
+        display: none;
+    }
+
+    .comida .icone {
+        display: block;
+    }
+
+    .bebida .icone {
+        display: block;
+    }
+
+    .sobremesa .icone {
+        display: block;
+    }
+
+    .ultimo {
+        margin-bottom: 20px;
+    }
+
+    img {
+        border-radius: 4px
+    }
+
+    h3 {
+        padding-top: 7px;
+        color: #A6A6A6;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    p {  
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .barradebaixo {
+        background-color: #FFFFFF;
+        position: fixed;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 92px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .barradebaixo .barradebaixoSeleciona {
+        background-color: #32B72F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .
+
+    .txtBarraDeBaixo p{
+        font-size: 20px;
+    }
+
+    .backgroungTxt {
+        width: 364px;
+        height: 61px;
+        border-radius: 50px;
+        background-color: #CBCBCB;
+    }
+     
+    .txtBarraDeBaixo p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-top: 7px;
+    }
+
+}
